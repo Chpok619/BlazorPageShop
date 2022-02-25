@@ -1,0 +1,47 @@
+﻿@page "/CatalogPage"
+
+@using MyShop
+@using System.Diagnostics
+
+@inject ICatalog Catalog
+@inject ICartForShop Cart
+
+<h3>Catalog</h3>
+@for (int i = 0; i < _catalog.Count; i++)
+{
+    var j = i;
+    <p>@_catalog[i].Name - <img src="@_catalog[i].Image"/><button @onclick="() => AddToBasket(j)">Add</button></p>
+}
+
+<br/>
+<p>Your cart: </p>
+@if (_cart.Count > 0)
+{
+    @foreach (var product in _cart)
+    {
+        <p>@product.Name: @product.Price - <img src="@product.Image"/></p>
+    }
+}
+
+@code {
+    private IReadOnlyList<Product>? _catalog;
+    public IReadOnlyList<Product>? _cart { get; set; }
+
+    [Parameter]
+    public string uri { get; set; }
+    
+    protected override void OnInitialized()
+    {
+        _catalog = Catalog.GetProducts();
+        _cart = Cart.GetCart();
+    }
+
+    private void AddToBasket(int i)
+    {
+        Console.WriteLine(i);
+
+        Cart.AddToCart(_catalog[i]);
+
+        _cart = Cart.GetCart();
+    }
+}
