@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZNiuoEBgGTntGLX80zqh+ZiemYU/ZVXm+ywxkUpdkvQ=",
+  "Hash": "DsvFybVJKzpxBIjc6nPPyIF8CXP3UseBnpGnuCnAamo=",
   "Source": "BlazorPagesShop",
   "BasePath": "_content/BlazorPagesShop",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "MyShop",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],

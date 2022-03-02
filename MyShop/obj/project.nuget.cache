@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ChHfjcOArOzQ2DYeOS3o2qIvObPLA4DooSGi0AQSr6aUCsHXNw09B8gcwUqrkNwJUTvo8riSl/HS0TQElk5dYA==",
+  "dgSpecHash": "oR6622CH9kTQhycxfIFphVyzgkqReNkuov7wfKzzaRw12fZTdKqRRDVhZkRx7Ly1mROJtrXxEeAQjQjNN68Mzg==",
   "success": true,
-  "projectFilePath": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\MyShop.csproj",
+  "projectFilePath": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\MyShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Роберт\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",
     "C:\\Users\\Роберт\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\microsoft.aspnetcore.components.6.0.1.nupkg.sha512",

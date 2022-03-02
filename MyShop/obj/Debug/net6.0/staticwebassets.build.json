@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o8F6b36h/Ihdts6EAGNO7fPpel7X0QU6YpvdjkED86U=",
+  "Hash": "V5fuChyziUEE30j0ajcF56SjTEJ9SZlHmtSyVA7wlME=",
   "Source": "MyShop",
   "BasePath": "_content/MyShop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MyShop\\wwwroot",
       "Source": "MyShop",
-      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\wwwroot\\",
+      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\wwwroot\\",
       "BasePath": "_content/MyShop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyShop.styles.css",
+      "Identity": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyShop.styles.css",
       "SourceId": "MyShop",
       "SourceType": "Computed",
-      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/MyShop",
       "RelativePath": "MyShop.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyShop.styles.css"
+      "OriginalItemSpec": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyShop.styles.css"
     },
     {
-      "Identity": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyShop.bundle.scp.css",
+      "Identity": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyShop.bundle.scp.css",
       "SourceId": "MyShop",
       "SourceType": "Computed",
-      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/MyShop",
       "RelativePath": "MyShop.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyShop.bundle.scp.css"
+      "OriginalItemSpec": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MyShop.bundle.scp.css"
     },
     {
-      "Identity": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\wwwroot\\background.png",
+      "Identity": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\wwwroot\\background.png",
       "SourceId": "MyShop",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\wwwroot\\",
+      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\wwwroot\\",
       "BasePath": "_content/MyShop",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\wwwroot\\exampleJsInterop.js",
+      "Identity": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\wwwroot\\exampleJsInterop.js",
       "SourceId": "MyShop",
       "SourceType": "Discovered",
-      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\wwwroot\\",
+      "ContentRoot": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\wwwroot\\",
       "BasePath": "_content/MyShop",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

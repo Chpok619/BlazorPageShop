@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\MyShop.csproj": {}
+    "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\MyShop.csproj": {}
   },
   "projects": {
-    "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\MyShop.csproj": {
+    "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\MyShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\MyShop.csproj",
+        "projectUniqueName": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\MyShop.csproj",
         "projectName": "MyShop",
-        "projectPath": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\MyShop.csproj",
+        "projectPath": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\MyShop.csproj",
         "packagesPath": "C:\\Users\\Роберт\\.nuget\\packages\\",
-        "outputPath": "P:\\Учёба\\Project\\source\\repos\\ASP\\Classwork\\MyShop\\obj\\",
+        "outputPath": "P:\\Учёба\\Project\\source\\repos\\ASP\\Homework\\BlazroPages\\BlazorPagesShop\\MyShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Роберт\\AppData\\Roaming\\NuGet\\NuGet.Config",
