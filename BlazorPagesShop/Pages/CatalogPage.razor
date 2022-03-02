@@ -1,7 +1,7 @@
 ﻿@page "/CatalogPage"
+@page "/CatalogPage/{ProductId:int}"
 
 @using MyShop
-@using System.Diagnostics
 
 @inject ICatalog Catalog
 @inject ICartForShop Cart
@@ -10,7 +10,7 @@
 @for (int i = 0; i < _catalog.Count; i++)
 {
     var j = i;
-    <p>@_catalog[i].Name - <img src="@_catalog[i].Image"/><button @onclick="() => AddToBasket(j)">Add</button></p>
+    <p>@_catalog[i].Name - <img src="@_catalog[i].Image" alt=""/><button @onclick="() => AddToBasket(j)">Add</button></p>
 }
 
 <br/>
@@ -19,27 +19,29 @@
 {
     @foreach (var product in _cart)
     {
-        <p>@product.Name: @product.Price - <img src="@product.Image"/></p>
+        <p>@product.Name: @product.Price - <img src="@product.Image" alt=""/></p>
     }
 }
 
 @code {
     private IReadOnlyList<Product>? _catalog;
-    public IReadOnlyList<Product>? _cart { get; set; }
+    private IReadOnlyList<Product>? _cart { get; set; }
 
     [Parameter]
-    public string uri { get; set; }
+    public int ProductId { get; set; }
+    
+    public Product Product { get; set; }
     
     protected override void OnInitialized()
     {
         _catalog = Catalog.GetProducts();
         _cart = Cart.GetCart();
+
+        Product = Catalog.GetProduct(ProductId);
     }
 
     private void AddToBasket(int i)
     {
-        Console.WriteLine(i);
-
         Cart.AddToCart(_catalog[i]);
 
         _cart = Cart.GetCart();

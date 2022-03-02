@@ -1,7 +1,23 @@
 ﻿@page "/BasketPage"
+@using MyShop
 
-<h3>Basket:</h3>
+@inject ICartForShop Cart
+
+<h3>Cart</h3>
+
+@if (_products.Count > 0)
+{
+@foreach (var product in _products)
+{
+    <p>@product.Name: @product.Price - @product.Image</p>
+}
+}
 
 @code {
+    private IReadOnlyList<Product> _products;
     
+    protected override void OnInitialized()
+    {
+        _products = Cart.GetCart();
+    }
 }
